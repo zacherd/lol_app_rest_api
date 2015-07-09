@@ -1,3 +1,7 @@
+lol_app:
+    resource: "@lolAppBundle/Resources/config/routing.yml"
+    prefix:   /
+
 app:
     resource: "@AppBundle/Controller/"
     type:     annotation
